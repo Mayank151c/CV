@@ -1,7 +1,19 @@
-header{
-	display: flex;
-	font-size: 50px;
+.topnav{
+	display: right;
+	float: right;
 }
+.first-wrd{
+	font-family: 'Dancing Script', cursive;
+}
+.navbar-brand{
+	font-size: 2rem;
+	margin: 2px;
+}
+
+.nav-link{
+	font-size: 1.1rem;
+}
+
 div:nth-of-type(2),img{
 	font-size: 23px;
 	margin-top: 30px;
