@@ -5,74 +5,79 @@
 	<title>
 		Mayank's Personal Website
 	</title>
+		<link rel="icon" type="text/css" href="images/m.png">
 
 		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-
-
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+<!--Start of Bootstrap 4.0.0-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css\styles.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--End of Bootstrap 4.0.0-->
+
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-	<nav class="row navbar navbar-expand-lg navbar-dark bg-dark">
+<!--Code for navigation bar of the main website-->
+<header>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="navbar-brand text-dark mb-0 h1" >Curriculum vitae</div>
 
-			<a class="navbar-brand first-wrd" href="#">Mayank Choudhary</a>
-
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	    	<span class="navbar-toggler-icon"></span>
-	 		</button>
-
-			<div class="topnav collapse navbar-collapse" id="navbarNavDropdown">
-
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+				<div class="mr-auto"></div>
 			    <ul class="navbar-nav">
 
-
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home</a>
+			      <li class="nav-item">
+			        <a class="nav-link text-dark active" href="#">Home</a>
 			      </li>
 
 
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Resume</a>
+			        <a class="nav-link text-dark" href="#">About</a>
 			      </li>
 
 
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Project</a>
+			        <a class="nav-link text-dark" href="#">Project</a>
 			      </li>
 
 
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact</a>
+			        <a class="nav-link text-dark" href="#">Contact</a>
 			      </li>
-
-
-			      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown link
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			      </li>
-
 
 			    </ul>
-			</div>  
-	</nav>
+		</div>
 
-	<br>
-	<div >
-		<img src="images\my_picture.png" width="200" height="200">
+	</nav>
+</header>
+
+<div class="row">
+	<div class="col-md-12 col-lg-6">
+			<img class="image" src="images/circle.png" width="500rem" height="500rem" alt="Here suppose to be an image.">		
 	</div>
-	
+
+	<div class="col-lg-6">
+		<div class="tagline">Hey I am <br><strong class="name">Mayank Choudhary</strong> <br> a web developer. </div>
+	</div>
+</div>
+
+<hr width="100px">
+
+
+<footer class="footer">
+	<br>© created by Mayank choudhary.
+</footer>
+
 </body>
 
 </html>
