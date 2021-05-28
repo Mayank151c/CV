@@ -1,18 +1,12 @@
 body{
-	background: #13c7c6ff;
-	background: rgba(50,255,100,0.5);
-}
-header{
-	background: rgba(1,1,50,0.6);
-	box-shadow: 0px 2px;
-	padding: 0rem 0.5rem;
-}
-hr{
-	border-top: 10px dotted #00106077;
+	background: rgba(150,200,253,0.3);
 }
 h2{
 	text-decoration: underline;
 	margin-bottom: 2rem; 
+}
+hr{
+	border-top: 10px dotted #00106077;
 }
 footer{
 	background: white;
@@ -21,8 +15,29 @@ footer{
 	font-size: 1rem;
 }
 
-.navbar{
-	padding: 0rem;
+/*	Media Query	*/
+@media only screen and (max-width: 992px){
+	[class*="tagline"]{
+		margin: 2rem auto;
+	}
+	*{
+		font-size: 1.7rem;
+	}
+	.card-deck .col-lg-4{
+		margin: 1rem auto;
+	}
+}
+@media only screen and (max-width: 576px)
+{
+	*{
+		font-size: 1.4rem;
+	}
+}
+
+.navbar{	
+	background: rgba(1,1,50,0.6);
+	box-shadow: 0px 2px;
+	padding: 0rem 0.5rem;
 }
 .nav-link{
 	font-size: 1.3rem;
@@ -38,7 +53,6 @@ footer{
 	font-weight: bold;
 	text-shadow: 1px 2px blue;
 	padding: 0rem 2rem;
-	background: rgba(10,30,60,0.4);
 }
 
 
@@ -58,14 +72,10 @@ footer{
 }
 .image{
 	padding: 1rem;
-	margin: 3rem; 
-}
-.text{
-	background: rgba(100,100,100,0.25);
-	padding: 2rem 3rem;
 }
 .aboutme-text{
 	font-size: 1.5rem;
+	margin: 3rem 1rem;
 }
 .navbar-toggler{
 	border: 0.15rem solid grey;
@@ -76,30 +86,38 @@ footer{
 	width: 1rem;
 	height: 1rem;
 }
-@media only screen and (max-width: 992px){
-	[class*="tagline"]{
-		margin: 2rem auto;
-	}
-	*{
-		font-size: 1.7rem;
-	}
+.card{
+	font-size: 1.3rem;
 }
-@media only screen and (max-width: 576px)
-{
-	*{
-		font-size: 1.4rem;
-	}
+.left{
+	text-align: left;
 }
-
+.about-header{
+	font-size: 2.5rem;
+	display: block;
+	margin: 2rem 1rem;
+}
+.carousel{
+	margin-bottom:1.5rem; 
+}
 
 #intro{
-	background: rgba(10,30,60,0.3);
-	margin: 5rem 1rem 3rem 1rem;
+	/*margin: 5rem 1rem 3rem 1rem;*/
+	margin: 5rem auto;
+	padding-right: 0rem;
 }
 #aboutme{
-	background: rgba(100,100,100,0.25);
-	margin: 3rem 1rem; 
-	padding: auto;
+	border: 0.2rem solid grey;
+	background: rgba(10,10,10,0.1);
+	background: background: rgba(150,200,253,0.7);
 	padding-top: 0.6rem;
 	text-align: center;
+}
+
+/* Mixed CSS */
+.card-body .col-4{
+	padding-left: 2rem ;
+}
+#aboutme h2{
+	font-size: 3rem;
 }
