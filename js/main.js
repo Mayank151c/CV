@@ -1,19 +1,13 @@
+window.onload = alert("This website is for Demonstration of Project only.\n Information may not be 100% accurate.")
 
-window.onmouseover = function()
-{
-	var img = document.getElementByTagName("img");
-	img.style.border = "2px solid red";
+
+// collapse the navbar button in mobile screen if scroll event occur.
+window.onscroll = function(event) {
+  document.getElementById("navbarText").classList.add("collapsing");
 }
 
-var codeforcesHTML;
 
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "https://codeforces.com/profile/mayank_010501", true);
-  xhttp.send();
+// if clicked navbar toggler button take you to the top.(used for preventing upscroll)
+function(button,onclick){
+  
 }

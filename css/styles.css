@@ -15,24 +15,6 @@ footer{
 	font-size: 1rem;
 }
 
-/*	Media Query	*/
-@media only screen and (max-width: 992px){
-	[class*="tagline"]{
-		margin: 2rem auto;
-	}
-	*{
-		font-size: 1.7rem;
-	}
-	.card-deck .col-lg-4{
-		margin: 1rem auto;
-	}
-}
-@media only screen and (max-width: 576px)
-{
-	*{
-		font-size: 1.4rem;
-	}
-}
 
 .navbar{	
 	background: rgba(1,1,50,0.6);
@@ -113,11 +95,38 @@ footer{
 	padding-top: 0.6rem;
 	text-align: center;
 }
+#myImage{
+	display: flex;
+	justify-content: center;
+}
 
-/* Mixed CSS */
+/*--------------- Mixed CSS ----------------*/
+
 .card-body .col-4{
 	padding-left: 2rem ;
 }
 #aboutme h2{
 	font-size: 3rem;
+}
+
+
+/*-----------------	Media Query	--------------*/
+
+
+@media only screen and (max-width: 992px){
+	[class*="tagline"]{
+		margin: 2rem auto;
+	}
+	*{
+		font-size: 1.7rem;
+	}
+	.card-deck .col-lg-4{
+		margin: 1rem auto;
+	}
+}
+@media only screen and (max-width: 576px)
+{
+	*{
+		font-size: 1.4rem;
+	}
 }
