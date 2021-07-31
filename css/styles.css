@@ -1,6 +1,13 @@
 body{
 	background: rgba(150,200,253,0.3);
 }
+header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: block;
+	z-index: 3;
+}
 h2{
 	text-decoration: underline;
 	margin-bottom: 2rem; 
@@ -36,6 +43,7 @@ footer{
 	text-shadow: 1px 2px blue;
 	padding: 0rem 2rem;
 }
+
 
 
 
@@ -107,6 +115,11 @@ footer{
 }
 #aboutme h2{
 	font-size: 3rem;
+}
+#contact {
+	width: 50%;
+	text-align: center;
+	margin: auto;
 }
 
 

@@ -2,8 +2,9 @@ window.onload = alert("This website is for Demonstration of Project only.\n Info
 
 
 // collapse the navbar button in mobile screen if scroll event occur.
-window.onscroll = function(event) {
+window.onscroll = function() {
   document.getElementById("navbarText").classList.add("collapsing");
+  document.getElementsByTagName("header").style.display = "none";
 }
 
 
