@@ -1,129 +1,145 @@
-body{
+body {
 	background: rgba(150,200,253,0.3);
 }
-header{
+
+header {
+	display: block;
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	display: block;
 	z-index: 3;
 }
-h2{
-	text-decoration: underline;
+
+h2 {
 	margin-bottom: 2rem; 
+	text-decoration: underline;
 }
-hr{
+
+hr {
 	border-top: 10px dotted #00106077;
 }
-footer{
+
+footer {
 	background: white;
 	color: grey;
-	text-align: center;
 	font-size: 1rem;
+	text-align: center;
 }
 
 
-.dropdown-toggle{
+
+.dropdown-toggle {
 	color: skyblue;
 }
-.navbar{	
+
+.navbar {	
 	background: rgba(1,1,50,0.6);
 	box-shadow: 0px 2px;
 	padding: 0rem 0.5rem;
 }
-.nav-link{
+
+.nav-link {
 	font-size: 1.3rem;
 }
-.nav-link:hover{
-	font-size: 1.35rem;
+
+.nav-link:hover {
 	color: white;
+	font-size: 1.35rem;
 	text-shadow: 0.5px 0.5px grey;
 }
-.navbar-brand{
-	font-size: 2.8rem;
+
+.navbar-brand {
 	font-family: 'Dancing Script', cursive;
+	font-size: 2.8rem;
 	font-weight: bold;
-	text-shadow: 1px 2px blue;
 	padding: 0rem 2rem;
+	text-shadow: 1px 2px blue;
 }
 
-
-
-
-.tagline{
+.tagline {
 	background: rgba(100,100,100,0.25);
 	color: rgb(10,30,60);
 	font-family: 'Itim', cursive;
-	margin: 10rem auto;
-	letter-spacing: 0.2rem;
-	padding: 2rem 1rem 5rem 1rem;
 	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	margin: 10rem auto;
+	padding: 2rem 1rem 5rem 1rem;
 }
-.name{
-	font-size: 3rem;
+
+.name {
 	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
 }
-.image{
+
+.image {
 	padding: 1rem;
 }
-.aboutme-text{
+
+.aboutme-text {
 	font-size: 1.5rem;
 	margin: 3rem 1rem;
 }
-.navbar-toggler{
+
+.navbar-toggler {
+	background: linear-gradient(#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004)
 	border: 0.15rem solid grey;
 	padding-left: 0.1rem;
-	background: linear-gradient(#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004)
 }
-.star{
-	width: 1rem;
-	height: 1rem;
-}
-.card{
+
+.card {
 	font-size: 1.3rem;
 }
-.left{
+
+.left {
 	text-align: left;
 }
-.about-header{
-	font-size: 2.5rem;
+
+.about-header {
 	display: block;
+	font-size: 2.5rem;
 	margin: 2rem 1rem;
 }
-.carousel{
+
+.carousel {
 	margin-bottom:1.5rem; 
 }
 
-#intro{
-	/*margin: 5rem 1rem 3rem 1rem;*/
+
+
+#intro {
 	margin: 5rem auto;
 	padding-right: 0rem;
 }
-#aboutme{
-	border: 0.2rem solid grey;
-	background: rgba(10,10,10,0.1);
+
+#aboutme {
 	background: background: rgba(150,200,253,0.7);
+	border: 0.2rem solid grey;
 	padding-top: 0.6rem;
 	text-align: center;
 }
-#myImage{
+
+#myImage {
 	display: flex;
 	justify-content: center;
 }
+
 #contact {
-	text-align: center;
+	border-radius: 1rem 3rem;
+	box-shadow: 0.4rem 0.25rem grey;
 	margin: auto;
 	padding: 1rem 2.5rem;
-	box-shadow: 0.4rem 0.25rem grey;
-	border-radius: 1rem 3rem;
+	text-align: center;
 }
+
 
 /*--------------- Mixed CSS ----------------*/
 
-.card-body .col-4{
+
+.card-body .col-4 {
 	padding-left: 2rem ;
 }
-#aboutme h2{
+
+#aboutme h2 {
 	font-size: 3rem;
 }
 
@@ -131,20 +147,22 @@ footer{
 /*-----------------	Media Query	--------------*/
 
 
-@media only screen and (max-width: 992px){
-	[class*="tagline"]{
+@media only screen and (max-width: 992px) {
+	[class*="tagline"] {
 		margin: 2rem auto;
 	}
-	*{
+
+	* {
 		font-size: 1.7rem;
 	}
-	.card-deck .col-lg-4{
+
+	.card-deck .col-lg-4 {
 		margin: 1rem auto;
 	}
 }
-@media only screen and (max-width: 576px)
-{
-	*{
+
+@media only screen and (max-width: 576px) {
+	* {
 		font-size: 1.4rem;
 	}
 }
