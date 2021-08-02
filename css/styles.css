@@ -1,5 +1,4 @@
 body {
-	background: rgba(150,200,253,0.3);
 }
 
 header {
@@ -28,12 +27,8 @@ footer {
 
 
 
-.dropdown-toggle {
-	color: skyblue;
-}
-
-.navbar {	
-	background: rgba(1,1,50,0.6);
+.navbar {
+	background: #282A35;
 	box-shadow: 0px 2px;
 	padding: 0rem 0.5rem;
 }
@@ -52,18 +47,23 @@ footer {
 	font-family: 'Dancing Script', cursive;
 	font-size: 2.8rem;
 	font-weight: bold;
-	padding: 0rem 2rem;
+	margin-left: 2rem;
 	text-shadow: 1px 2px blue;
 }
 
-.tagline {
-	background: rgba(100,100,100,0.25);
+.tagline {/*
+	background: rgba(100,100,100,0.25);*/
 	color: rgb(10,30,60);
 	font-family: 'Itim', cursive;
 	font-size: 1.5rem;
+	font-weight: 1rem;
 	letter-spacing: 0.2rem;
 	margin: 10rem auto;
 	padding: 2rem 1rem 5rem 1rem;
+}
+
+.dropdown-toggle {
+	color: skyblue;
 }
 
 .name {
@@ -72,22 +72,23 @@ footer {
 }
 
 .image {
-	padding: 1rem;
+	padding: 2rem;
 }
 
 .aboutme-text {
 	font-size: 1.5rem;
-	margin: 3rem 1rem;
 }
 
 .navbar-toggler {
-	background: linear-gradient(#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004,black,#10306004,#10306004,#10306004)
+	background: linear-gradient(transparent,transparent,white,transparent,transparent,white,transparent,transparent,white,transparent,transparent);
 	border: 0.15rem solid grey;
 	padding-left: 0.1rem;
 }
 
 .card {
 	font-size: 1.3rem;
+	box-shadow: 1rem 0.5rem rgba;
+	margin: 5rem;
 }
 
 .left {
@@ -102,6 +103,11 @@ footer {
 
 .carousel {
 	margin-bottom:1.5rem; 
+}
+
+.card-header {
+	border: 10rem;
+	background: blue;
 }
 
 
